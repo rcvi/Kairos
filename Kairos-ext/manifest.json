@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Kairos",
+  "version": "1.0",
+  "description": "Privacy enhancer!!!!!!!!!!!",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
